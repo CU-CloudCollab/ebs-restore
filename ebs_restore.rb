@@ -25,7 +25,6 @@ curr_vol = ec2.describe_volumes({volume_ids: [vol_id]})
 curr_instance_id = curr_vol.volumes[0].attachments[0].instance_id
 curr_zone = curr_vol.volumes[0].availability_zone
 curr_vol_type = curr_vol.volumes[0].volume_type
-#curr_iops = curr_vol.volumes[0].iops.to_s
 curr_device = curr_vol.volumes[0].attachments[0].device
 
 puts "Volume #{vol_id} Properties:  "
