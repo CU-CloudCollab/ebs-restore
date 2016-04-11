@@ -18,10 +18,3 @@ Usage: ebs-restore.rb [options]
 1. detach current volume from the instance
 1. attach new volume to the instance
 1. restart the instance
-
-## Inputs
-
-* AWS region (optional - will default to us-east-1) 
-* volume ID of volume to restore
-
-
