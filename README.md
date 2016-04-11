@@ -14,7 +14,7 @@ Usage: ebs-restore.rb [options]
 1. gather information about current volume
 1. determine latest snapshot ID
 1. create new volume
-1. stop current instance, if running
+1. stop instance, if running, that the current volume is attached to
 1. detach current volume from the instance
 1. attach new volume to the instance
 1. restart the instance
