@@ -1,5 +1,5 @@
 # ebs-restore
-Ruby script to find most recent EBS snapshot and restore to the instance.  This closes the AWS gaps identified in https://github.com/CU-CloudCollab/aws-gaps/issues/10 and https://github.com/CU-CloudCollab/aws-gaps/issues/11.
+Ruby script to find most recent EBS snapshot and restore to the instance.  This closes the AWS gaps identified in https://github.com/CU-CloudCollab/aws-gaps/issues/11 and https://github.com/CU-CloudCollab/aws-gaps/issues/12.
 
 ## Command Line Options
 ```
