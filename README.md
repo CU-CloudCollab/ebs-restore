@@ -3,8 +3,8 @@ Ruby script to find most recent EBS snapshot and restore to the instance.  This 
 
 ## Command Line Options
 ```
-$ ./ebs-restore.rb -h
-Usage: ebs-restore.rb [options]
+$ ./ebs_restore.rb -h
+Usage: ebs_restore.rb [options]
     -r, --region region              AWS region (optional - will default to us-east-1) 
     -v, --volumeid volume-id         Volume ID (required) 
 ```
